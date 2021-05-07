@@ -5,7 +5,7 @@ Manually generated Kubernetes schema for use with KubeVal.
 Original repo:
 https://github.com/instrumenta/kubernetes-json-schema/
 
-Generate folders with [./generate.sh](./generate.sh)
+Generate JSON schema with [./generate.sh](./generate.sh)
 > 📝 Requires sh, Python, [openapi2jsonschema](https://github.com/instrumenta/openapi2jsonschema)
 
 Use with Kubeval
