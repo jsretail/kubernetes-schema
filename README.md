@@ -10,5 +10,9 @@ Generate folders with [./generate.sh](./generate.sh)
 Use with Kubeval
 
 ```sh
-kubeval --kubernetes-version v1.19.9 --strict --schema-location https://raw.githubusercontent.com/thunter1000/kubernetes-schema/main ${yamlToCheck}
+kubeval \
+  --schema-location https://raw.githubusercontent.com/thunter1000/kubernetes-schema/main \
+  --kubernetes-version v1.19.9 \
+  --strict \
+  ${yamlToCheck}
 ```
