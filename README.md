@@ -13,12 +13,12 @@ Use with Kubeval
 ```sh
 kubeval \
   --schema-location https://raw.githubusercontent.com/thunter1000/kubernetes-schema/main \
-  --kubernetes-version v1.19.9 \
+  --kubernetes-version 1.19.9 \
   --strict \
   ${yamlToCheck}
 ```
 
-Sparse Checkout
+Sparse Clone
 ```sh
 gh repo clone thunter1000/kubernetes-schema -- \
 --depth 1 \
