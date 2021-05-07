@@ -17,3 +17,11 @@ kubeval \
   --strict \
   ${yamlToCheck}
 ```
+
+Sparse Checkout
+```sh
+gh repo clone thunter1000/kubernetes-schema -- \
+--depth 1 \
+--filter=blob:none \
+--sparse
+```
