@@ -12,7 +12,7 @@ Use with Kubeval
 
 ```sh
 kubeval \
-  --schema-location https://raw.githubusercontent.com/thunter1000/kubernetes-schema/main \
+  --schema-location https://raw.githubusercontent.com/jsretail/kubernetes-schema/main \
   --kubernetes-version 1.19.9 \
   --strict \
   ${yamlToCheck}
