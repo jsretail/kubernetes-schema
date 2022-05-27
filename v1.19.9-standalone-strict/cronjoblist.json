@@ -18,6 +18,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "batch/v2alpha1"
             ]
           },
           "kind": {

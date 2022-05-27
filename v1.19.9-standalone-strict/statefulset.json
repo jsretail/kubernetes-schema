@@ -9102,6 +9102,9 @@
                 "type": [
                   "string",
                   "null"
+                ],
+                "enum": [
+                  "v1"
                 ]
               },
               "kind": {
