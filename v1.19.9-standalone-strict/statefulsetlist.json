@@ -17,9 +17,6 @@
             "type": [
               "string",
               "null"
-            ],
-            "enum": [
-              "apps/v1"
             ]
           },
           "kind": {
@@ -9116,9 +9113,6 @@
                       "type": [
                         "string",
                         "null"
-                      ],
-                      "enum": [
-                        "v1"
                       ]
                     },
                     "kind": {

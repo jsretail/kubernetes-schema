@@ -17,7 +17,7 @@
       ]
     },
     "jobTemplate": {
-      "$ref": "https://kubernetesjsonschema.dev/v1.23.0/_definitions.json#/definitions/io.k8s.api.batch.v1beta1.JobTemplateSpec",
+      "$ref": "https://raw.githubusercontent.com/jsretail/kubernetes-schema/main/v1.23.0/_definitions.json#/definitions/io.k8s.api.batch.v1beta1.JobTemplateSpec",
       "description": "Specifies the job that will be created when executing a CronJob."
     },
     "schedule": {

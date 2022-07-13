@@ -4,7 +4,7 @@
     "limits": {
       "description": "Limits is the list of LimitRangeItem objects that are enforced.",
       "items": {
-        "$ref": "https://kubernetesjsonschema.dev/v1.24.0/_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeItem"
+        "$ref": "https://raw.githubusercontent.com/jsretail/kubernetes-schema/main/v1.24.0/_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeItem"
       },
       "type": [
         "array",

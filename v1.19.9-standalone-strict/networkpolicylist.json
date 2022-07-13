@@ -18,9 +18,6 @@
             "type": [
               "string",
               "null"
-            ],
-            "enum": [
-              "networking.k8s.io/v1"
             ]
           },
           "kind": {

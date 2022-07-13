@@ -16,9 +16,6 @@
             "type": [
               "string",
               "null"
-            ],
-            "enum": [
-              "certificates.k8s.io/v1beta1"
             ]
           },
           "kind": {
